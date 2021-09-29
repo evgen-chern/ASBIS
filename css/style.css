@@ -164,26 +164,6 @@ body {
   overflow-x: hidden;
 }
 
-@-webkit-keyframes show {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 .container {
   width: 100%;
   max-width: 1600px;
