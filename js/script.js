@@ -36,11 +36,9 @@ testWebP(function (support) {
      $(".info-search__icon").click(function(EO){
          if(innerWidth >= 780){
              if($(this).hasClass("info-search__icon--open")){
-                 $(".info-lang").css("display","flex")
                  $(".info-search__input").css("display","none")
                  $(this).removeClass("info-search__icon--open")
              }else{
-                 $(".info-lang").css("display","none")
                  $(".info-search__input").css("display","block")
                  $(this).addClass("info-search__icon--open")
              }
@@ -59,9 +57,18 @@ testWebP(function (support) {
      $(".main-index_slider").slick({
          arrows: true,
          autoplay: true,
-         autoplaySpeed: 10000,
+         autoplaySpeed: 5000,
          lazyLoad: 'ondemand',
-         dots: true
+         dots: true,
+         pauseOnDotsHover :true,
+         responsive: [
+             {
+                 breakpoint: 480,
+                 settings: {
+                     autoplay: false
+                 }
+             }
+         ]
      })
 
      /* BURGER */
@@ -74,6 +81,47 @@ testWebP(function (support) {
          $(".header-menu").toggleClass("active")
          $(".search-mobile").toggleClass("mt-20")
      });
+
+
+
+     const animItems = document.querySelectorAll('.anim_item');
+     if (animItems.length >0){
+         window.addEventListener('scroll', animOnScroll);
+         function animOnScroll(){
+             for (let index = 0; index < animItems.length; index++) {
+                 const animItem = animItems[index];
+                 const animItemHeight = animItem.offsetHeight;
+                 const animItemOffset = offset(animItem).top;
+                 const animStart = 4;
+
+                 let animItemPoint = window.innerHeight - animItemHeight / animStart;
+
+                 if(animItemHeight > window.innerHeight) {
+                     animItemPoint = window.innerHeight - window.innerHeight / animStart;
+                 }
+
+                 if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                     animItem.classList.add('anim');
+                 } else {
+                     if(!animItem.classList.contains('no_anim')){
+                         animItem.classList.remove('anim');
+                     }
+                 }
+             }
+         }
+         function offset(el) {
+             const rect = el.getBoundingClientRect(),
+                 scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+                 scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+             return { top: rect.top + scrollTop, left: rect.left + scrollLeft}
+         }
+
+         setTimeout(() => {
+             animOnScroll();
+         }, 400);
+
+     }
+
 
 }
 
