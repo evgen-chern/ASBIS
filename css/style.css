@@ -746,9 +746,11 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 }
 
 .business-lines .business-lines__row .business-lines__col .business-lines__col-big:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(10, 37, 51, 0.1)), to(rgba(10, 37, 51, 0))), rgba(10, 37, 51, 0.1);
-  background: -o-linear-gradient(top, rgba(10, 37, 51, 0.1) 0, rgba(10, 37, 51, 0) 100%), rgba(10, 37, 51, 0.1);
-  background: linear-gradient(to bottom, rgba(10, 37, 51, 0.1) 0, rgba(10, 37, 51, 0) 100%), rgba(10, 37, 51, 0.1);
+  background: #F5833C;
+}
+
+.business-lines .business-lines__row .business-lines__col .business-lines__col-big:hover a {
+  color: #fff;
 }
 
 .business-lines .business-lines__row .business-lines__col .business-lines__col-big.bg-time {
@@ -817,26 +819,30 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 }
 
 .business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(10, 37, 51, 0.1)), to(rgba(10, 37, 51, 0))), rgba(10, 37, 51, 0.1);
-  background: -o-linear-gradient(top, rgba(10, 37, 51, 0.1) 0, rgba(10, 37, 51, 0) 100%), rgba(10, 37, 51, 0.1);
-  background: linear-gradient(to bottom, rgba(10, 37, 51, 0.1) 0, rgba(10, 37, 51, 0) 100%), rgba(10, 37, 51, 0.1);
-}
-
-.business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small.bg-orange {
   background: #F5833C;
 }
 
+.business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small:hover a {
+  color: #fff;
+}
+
+.business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small.bg-orange {
+  background: #f5f7f9;
+}
+
 .business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small.bg-orange:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(10, 37, 51, 0.3)), to(rgba(10, 37, 51, 0))), rgba(10, 37, 51, 0.3);
-  background: -o-linear-gradient(top, rgba(10, 37, 51, 0.3) 0, rgba(10, 37, 51, 0) 100%), rgba(10, 37, 51, 0.3);
-  background: linear-gradient(to bottom, rgba(10, 37, 51, 0.3) 0, rgba(10, 37, 51, 0) 100%), rgba(10, 37, 51, 0.3);
+  background: #F5833C;
+}
+
+.business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small.bg-orange:hover a {
+  color: #fff;
 }
 
 .business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small.bg-orange a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #133F68;
   margin-right: 25px;
 }
 
@@ -970,10 +976,27 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
   margin-bottom: 30px;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
 }
 
 .company-description .company-description__refs a svg {
   margin: 5px 10px 0 0;
+}
+
+.company-description .company-description__refs.active .asbis_video {
+  height: 100%;
+}
+
+.company-description .company-description__refs.active h4 {
+  visibility: hidden;
+}
+
+.company-description .company-description__refs.active a.play_video {
+  color: #fff;
+}
+
+.company-description .company-description__refs.active a.play_video svg path {
+  fill: #fff;
 }
 
 /*END DESCRIPTION*/

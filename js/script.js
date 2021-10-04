@@ -53,6 +53,10 @@ testWebP(function (support) {
          }
      })
 
+     $(".play_video").click(function (){
+         $(".company-description__refs").toggleClass("active")
+         })
+
 
      $(".main-index_slider").slick({
          arrows: true,
