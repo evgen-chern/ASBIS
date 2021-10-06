@@ -1870,10 +1870,15 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
+    background: #FFFFFF;
+  }
+
+  .header .header-menu.active:before {
+    background: #FFFFFF;
   }
 
   .header .header-menu.active ul {
-    padding: 5px 0 25px 0;
+    padding: 0 0 10px 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1884,7 +1889,34 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
   }
 
   .header .header-menu.active ul li {
-    margin: 5px 0 0 0;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #E9EFF2;
+  }
+
+  .header .header-menu.active ul li:first-child {
+    padding: 5px 0 20px 0;
+  }
+
+  .header .header-menu.active ul li:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+
+  .header .header-menu.active ul li:last-child {
+    border-bottom: none;
+    padding: 15px 0;
+    margin: 0 auto;
+  }
+
+  .header .header-menu.active ul li:last-child a {
+    padding: 12px 24px;
+  }
+
+  .header .header-menu.active ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #353535;
   }
 
   .header .header-menu.active ul li .header-menu__btn {
