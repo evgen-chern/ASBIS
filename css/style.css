@@ -425,6 +425,7 @@ body {
 }
 
 .header .header-menu nav ul li.parent_item svg {
+  visibility: hidden;
   position: absolute;
   top: 7px;
   right: -13px;
@@ -1906,6 +1907,7 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
   }
 
   .header .header-menu nav ul li.parent_item svg {
+    visibility: visible;
     width: 10px;
     height: 17px;
     top: 23px;
