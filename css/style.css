@@ -2158,6 +2158,67 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 
 /*END CONTACT*/
 
+/*START 404*/
+
+.main-404 .breadcrumbs {
+  margin: 80px 0 30px 2px;
+}
+
+.main-404 .breadcrumbs a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #133F68;
+}
+
+.main-404 .breadcrumbs span {
+  margin: 0 15px;
+}
+
+.main-404 h1 {
+  font-weight: 600;
+  font-size: 170px;
+  line-height: 200px;
+  color: #133F68;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-404 h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  color: #353535;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main-404 h3 {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #353535;
+  margin: 0 auto 80px auto;
+  width: 419px;
+}
+
+.main-404 a.to_main {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #133F68;
+  border: 1px solid #133F68;
+  border-radius: 50px;
+  padding: 15px 62px;
+  margin: 0 auto 190px auto;
+  width: 300px;
+}
+
+/*END 404*/
+
 @media all and (min-width: 769px) {
   main.main-index .info-to-clients .info-to-clients__wrap.import {
     -webkit-transform: translate(130%, 0);
@@ -3090,6 +3151,47 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 
   .main-contacts.container .contacts-form .contacts-form_form {
     width: 100%;
+  }
+
+  .main-404 .breadcrumbs {
+    margin: 23px 0 40px 2px;
+  }
+
+  .main-404 .breadcrumbs a {
+    font-size: 12px;
+  }
+
+  .main-404 h1 {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 110px;
+    color: #133F68;
+    margin-bottom: 24px;
+  }
+
+  .main-404 h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #353535;
+    margin-bottom: 8px;
+  }
+
+  .main-404 h3 {
+    width: 257px;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    color: #353535;
+    margin: 0 auto 34px auto;
+  }
+
+  .main-404 a.to_main {
+    margin: 0 auto 100px auto;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 14px 62px;
   }
 }
 
