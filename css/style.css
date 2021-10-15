@@ -1754,6 +1754,15 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
   margin: 0 15px;
 }
 
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  color: #353535;
+  margin-bottom: 40px;
+}
+
 /*START CONTACT*/
 
 .main-contacts.container {
@@ -1765,15 +1774,6 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.main-contacts.container h1 {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 55px;
-  letter-spacing: 0.02em;
-  color: #353535;
-  margin-bottom: 40px;
 }
 
 .main-contacts.container h2 {
@@ -2205,15 +2205,6 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 
 /*START WHERE BUY*/
 
-.main-where_buy h1 {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 55px;
-  letter-spacing: 0.02em;
-  color: #353535;
-  margin-bottom: 40px;
-}
-
 .main-where_buy .where_buy__filter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2365,6 +2356,406 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 
 /*END WHERE BUY*/
 
+/*START ASBIS SERVICE*/
+
+.main-asbis_service h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  color: #353535;
+  margin-bottom: 28px;
+}
+
+.main-asbis_service .asbis_service__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 75px;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-asbis_service .asbis_service__wrapper .asbis_service__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__item-big {
+  width: 32%;
+  height: 200px;
+  background: #F5F7F9;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__items-small {
+  width: 32.8%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__items-small .small-item {
+  background: #F5F7F9;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 45%;
+}
+
+.main-asbis_service .asbis_service__wrapper-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items .info-item_warranty,
+.main-asbis_service .asbis_service__wrapper-info .info-items .info-item_support,
+.main-asbis_service .asbis_service__wrapper-info .info-items .info-item_times {
+  height: 232px;
+  width: 32.2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F5F7F9;
+  border-radius: 8px;
+  padding: 38px 5px 38px 38px;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #353535;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #133F68;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items a.map {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #2B85ED;
+  margin-top: 8px;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items .info-item_support-mod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.main-asbis_service .asbis_service__wrapper-info .info-items .info-item_support-mod span {
+  width: 68%;
+}
+
+.main-asbis_service .asbis_service__wrapper-advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-asbis_service .asbis_service__wrapper-advantage .advantage-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+.main-asbis_service .asbis_service__wrapper-advantage .advantage-items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32%;
+}
+
+.main-asbis_service .asbis_service__wrapper-advantage .advantage-items .item p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #353535;
+  width: 180px;
+  margin-left: 18px;
+}
+
+.main-asbis_service .asbis_service__wrapper-pickup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-asbis_service .asbis_service__wrapper-pickup .pickup-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item-big {
+  width: 66%;
+  background: #F5F7F9;
+  border-radius: 8px;
+  height: 256px;
+  padding: 40px;
+}
+
+.main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item-big p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  margin-bottom: 20px;
+}
+
+.main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item {
+  width: 32.2%;
+  background: #F5F7F9;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 26px;
+  color: #133F68;
+  margin-bottom: 20px;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 0 60px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item {
+  background: #F5F7F9;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-header {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  padding: 22px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-header.show img {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-header img {
+  float: right;
+  padding: 4px;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-content {
+  display: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #353535;
+  background: #fff;
+  padding: 15px 40px 25px 40px;
+}
+
+.main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-content.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-asbis_service .asbis_service__wrapper-important {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 0 150px 0;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 67%;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-text p {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  width: 88%;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-text p:last-child {
+  margin-bottom: 0;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-text p span {
+  margin-right: 10px;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 29%;
+  border-left: 1px solid #E9EFF2;
+  padding-left: 49px;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-links a {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #133F68;
+}
+
+.main-asbis_service .asbis_service__wrapper-important .important_items .item-links a:last-child {
+  margin-bottom: 0;
+}
+
+/*END ASBIS SERVICE*/
+
 @media all and (min-width: 769px) {
   main.main-index .info-to-clients .info-to-clients__wrap.import {
     -webkit-transform: translate(130%, 0);
@@ -2491,6 +2882,25 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
     font-size: 12px;
     line-height: 22px;
     padding: 10px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__items-small {
+    width: 32%;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_warranty,
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_support,
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_times {
+    padding: 20px 5px 20px 20px;
+    width: 32%;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item-big {
+    padding: 20px 20px 0 20px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item {
+    padding: 20px 20px 5px 20px;
   }
 }
 
@@ -3212,14 +3622,14 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
     font-size: 12px;
   }
 
-  .main-contacts.container {
-    margin: 0 auto 100px auto;
-  }
-
-  .main-contacts.container h1 {
+  h1 {
     margin-bottom: 24px;
     font-size: 24px;
     line-height: 34px;
+  }
+
+  .main-contacts.container {
+    margin: 0 auto 100px auto;
   }
 
   .main-contacts.container h2 {
@@ -3332,12 +3742,6 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
     padding: 14px 62px;
   }
 
-  .main-where_buy h1 {
-    margin-bottom: 24px;
-    font-size: 24px;
-    line-height: 34px;
-  }
-
   .main-where_buy .where_buy__filter {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3390,6 +3794,204 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
   }
 
   .main-where_buy .where_buy__list .where_buy__list-item .where_buy__links {
+    font-size: 14px;
+  }
+
+  .main-asbis_service h2 {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper {
+    padding-bottom: 50px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__item-big {
+    width: 100%;
+    height: 150px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__item-big img {
+    max-width: 60px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__items-small {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 150px;
+    margin: 15px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__items-small .small-item {
+    width: 47.5%;
+    height: 150px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper .asbis_service__items .asbis_service__items-small .small-item img {
+    max-width: 120px;
+    text-align: center;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info {
+    padding: 0 0 50px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_warranty,
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_support,
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_times {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items .info-item_support {
+    margin: 16px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items p {
+    font-size: 14px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items span {
+    font-size: 14px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items a {
+    font-size: 14px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-info .info-items a.map {
+    font-size: 12px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-advantage {
+    padding: 0 0 26px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-advantage .advantage-items {
+    margin: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-advantage .advantage-items .item {
+    width: auto;
+    margin-bottom: 24px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-advantage .advantage-items .item p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 150px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup {
+    padding: 0 0 50px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item-big {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item-big p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item {
+    width: 100%;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item a {
+    font-size: 14px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-questions {
+    padding: 0 0 38px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item {
+    margin-bottom: 12px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-header img {
+    width: 22px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-header {
+    padding: 13px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-content {
+    padding: 8px 13px 0 13px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important {
+    padding: 0 0 100px 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important .important_items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important .important_items .item-text {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important .important_items .item-text p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 8px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important .important_items .item-text p span {
+    margin-right: 5px;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important .important_items .item-links {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #E9EFF2;
+    padding-left: 0;
+  }
+
+  .main-asbis_service .asbis_service__wrapper-important .important_items .item-links a {
+    margin-bottom: 16px;
     font-size: 14px;
   }
 }
