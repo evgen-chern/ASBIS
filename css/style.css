@@ -2634,6 +2634,7 @@ h1 {
   background: #F5F7F9;
   border-radius: 6px;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .main-asbis_service .asbis_service__wrapper-questions .questions-items .questions-items__item .item-header {
