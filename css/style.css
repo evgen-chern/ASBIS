@@ -3082,6 +3082,10 @@ h1 {
     top: 70%;
   }
 
+  .header {
+    overflow: hidden;
+  }
+
   .header .header-info .info .info-lang {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4147,6 +4151,10 @@ h1 {
 
   .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item {
     margin: 15px 0 0 14px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item:first-child {
+    margin: 27px 0 0 14px;
   }
 
   .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item:last-child {
