@@ -4397,7 +4397,8 @@ h1 {
   }
 
   .main-vacancy_detail .detail-description__wrapper .detail-description__response a {
-    width: 320px;
+    width: 100%;
+    max-width: 100%;
     font-size: 14px;
     padding: 12px 50px;
     margin-bottom: 40px;
