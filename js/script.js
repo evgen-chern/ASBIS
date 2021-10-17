@@ -141,7 +141,7 @@ testWebP(function (support) {
      });
 
      /*SERVICE DROP*/
-     $(".item-content").prev().click(function() {
+     $(".questions-items__item .item-content").prev().click(function() {
          $(this).parents(".questions-items").find(".questions-items__item .item-content").not(this).slideUp().prev().removeClass("show");
          $(this).next().not(":visible").slideDown().prev().addClass("show");
      });
@@ -153,17 +153,14 @@ testWebP(function (support) {
 
 let header = $('.header');
 let info = $('.header-info');
-let mtslide = $('.main-index_slider_box');
 if(innerWidth >= 1023){
     $(window).scroll(function() {
-        if($(this).scrollTop() > 1) {
+        if($(this).scrollTop() > 500) {
             header.addClass('header_fixed');
-            info.addClass('d-none');
-            mtslide.addClass('mt-80');
+            info.addClass('vh');
         } else {
             header.removeClass('header_fixed');
-            info.removeClass('d-none');
-            mtslide.removeClass('mt-80');
+            info.removeClass('vh');
         }
     })}
 
