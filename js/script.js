@@ -134,13 +134,17 @@ testWebP(function (support) {
          }
      }
 
+     /*VACANCY DROP*/
+     $(".vacancy-list_item .item-content").prev().click(function() {
+         $(this).parents(".vacancy-list").find(".vacancy-list_item .item-content").not(this).slideUp().prev().removeClass("show");
+         $(this).next().not(":visible").slideDown().prev().addClass("show");
+     });
+
      /*SERVICE DROP*/
      $(".item-content").prev().click(function() {
          $(this).parents(".questions-items").find(".questions-items__item .item-content").not(this).slideUp().prev().removeClass("show");
          $(this).next().not(":visible").slideDown().prev().addClass("show");
      });
-
-
 
 
 

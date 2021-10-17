@@ -2757,6 +2757,117 @@ h1 {
 
 /*END ASBIS SERVICE*/
 
+/*START VACANCY*/
+
+.main-vacancy {
+  margin-bottom: 150px;
+}
+
+.main-vacancy h3 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #353535;
+  margin-bottom: 30px;
+}
+
+.main-vacancy p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  margin-bottom: 48px;
+}
+
+.main-vacancy .vacancy-list {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item {
+  margin-bottom: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item:last-child {
+  margin-bottom: 0;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-header {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #353535;
+  border-radius: 6px;
+  background: #F5F7F9;
+  padding: 22px 30px 20px 40px;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-header img {
+  float: right;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-header.show img {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-content {
+  background: #FFFFFF;
+  display: none;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-content.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 26px 0 0 40px;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item:last-child {
+  margin: 26px 0 26px 40px;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #133F68;
+}
+
+.main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #353535;
+}
+
+/*END VACANCY*/
+
 @media all and (min-width: 769px) {
   main.main-index .info-to-clients .info-to-clients__wrap.import {
     -webkit-transform: translate(130%, 0);
@@ -3993,6 +4104,55 @@ h1 {
 
   .main-asbis_service .asbis_service__wrapper-important .important_items .item-links a {
     margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .main-vacancy {
+    margin-bottom: 100px;
+  }
+
+  .main-vacancy h3 {
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+
+  .main-vacancy p {
+    margin-bottom: 52px;
+    font-size: 14px;
+  }
+
+  .main-vacancy .vacancy-list {
+    margin-top: 0;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item {
+    margin-bottom: 12px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-header {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 14px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-header img {
+    width: 22px;
+    padding: 4px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item {
+    margin: 15px 0 0 14px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item:last-child {
+    margin: 15px 0 15px 14px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item a {
+    font-size: 14px;
+  }
+
+  .main-vacancy .vacancy-list .vacancy-list_item .item-content .content_list__item span {
     font-size: 14px;
   }
 }
