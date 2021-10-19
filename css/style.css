@@ -3030,6 +3030,431 @@ h1 {
 
 /*END VACANCY DETAIL*/
 
+/*START ABOUT COMPANY*/
+
+.main-about {
+  margin-bottom: 150px;
+}
+
+.main-about .about-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.main-about .about-description .about-description__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+.main-about .about-description .about-description__text p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  color: #353535;
+}
+
+.main-about .about-description .about-description__text p:first-child {
+  margin-bottom: 28px;
+}
+
+.main-about .about-description .about-description__video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.main-about .about-description .about-description__video .desc_video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.main-about .about-emea {
+  padding: 90px 0 114px 0;
+  border-top: 1px solid #E9EFF2;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-about .about-emea h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  color: #353535;
+  margin-bottom: 80px;
+}
+
+.main-about .about-emea .about-emea__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.main-about .about-emea .about-emea__items .item {
+  width: 25%;
+}
+
+.main-about .about-emea .about-emea__items .item p {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 82px;
+  letter-spacing: 0.02em;
+  color: #133F68;
+}
+
+.main-about .about-emea .about-emea__items .item span {
+  font-size: 20px;
+  line-height: 30px;
+  color: #133F68;
+}
+
+.main-about .about-cross_and_prior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 70px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-about .about-cross_and_prior svg {
+  margin-bottom: 15px;
+}
+
+.main-about .about-cross_and_prior p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  color: #353535;
+  margin-bottom: 10px;
+}
+
+.main-about .about-cross_and_prior span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #353535;
+}
+
+.main-about .about-cross_and_prior .cross,
+.main-about .about-cross_and_prior .prior {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-about .about-cross_and_prior .banner {
+  position: relative;
+  width: 38%;
+  min-width: 550px;
+}
+
+.main-about .about-cross_and_prior .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-about .about-cross_and_prior .banner p {
+  position: absolute;
+  top: 77px;
+  left: 20%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-about .about-cross_and_prior .banner a {
+  position: absolute;
+  top: 223px;
+  left: 25%;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #133F68;
+  padding: 13px 30px;
+  background: #FFFFFF;
+  border-radius: 50px;
+}
+
+.main-about .about-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 90px 0 75px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-about .about-services .about-services__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 43%;
+}
+
+.main-about .about-services .about-services__col .about-services__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.main-about .about-services .about-services__col .about-services__item:last-child {
+  margin-bottom: 0;
+}
+
+.main-about .about-services .about-services__col .about-services__item p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  color: #133F68;
+  width: 315px;
+  margin-left: 20px;
+}
+
+.main-about .about-services .about-services__col .about-services__item p span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5D5D5D;
+  margin-top: 10px;
+}
+
+.main-about .about-direct {
+  padding: 75px 0 85px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-about .about-direct h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  color: #353535;
+  margin-bottom: 40px;
+}
+
+.main-about .about-direct .about-direct_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-about .about-direct .about-direct_items .item {
+  width: 26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-about .about-direct .about-direct_items .item p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #133F68;
+  margin-top: 20px;
+}
+
+.main-about .about-direct .about-direct_items .item span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5D5D5D;
+  margin-top: 8px;
+}
+
+.main-about .about-report {
+  padding: 75px 0;
+  border-bottom: 1px solid #E9EFF2;
+}
+
+.main-about .about-report h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  color: #353535;
+  margin-bottom: 40px;
+}
+
+.main-about .about-report .about-report_cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #F5F7F9;
+  border-radius: 8px;
+  padding: 40px 59px;
+}
+
+.main-about .about-report .about-report_cols .about-report_files {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-about .about-report .about-report_cols .about-report_files .about-report_files__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 47%;
+}
+
+.main-about .about-report .about-report_cols .about-report_files .about-report_files__col p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 45px;
+}
+
+.main-about .about-report .about-report_cols .about-report_files .about-report_files__col p:last-child {
+  margin-bottom: 0;
+}
+
+.main-about .about-report .about-report_cols .about-report_files .about-report_files__col p a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #133F68;
+  width: 307px;
+  margin-left: 10px;
+}
+
+.main-about .about-report .about-report_cols .about-report_present {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-about .about-report .about-report_cols .about-report_present .about-report_present__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.main-about .about-report .about-report_cols .about-report_present .about-report_present__col a {
+  margin-bottom: 29px;
+}
+
+.main-about .about-report .about-report_cols .about-report_present .about-report_present__col a img {
+  width: 100%;
+}
+
+.main-about .about-report .about-report_cols .about-report_present .about-report_present__col a:last-child {
+  margin-bottom: 0;
+}
+
+.main-about .about-callback {
+  height: 210px;
+  margin-top: 75px;
+  background: url(../img/about_cb.png) center/cover no-repeat;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-about .about-callback p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  color: #FFFFFF;
+  width: 30%;
+  margin-left: 115px;
+}
+
+.main-about .about-callback a {
+  width: 242px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #133F68;
+  padding: 13px 54px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  margin-right: 115px;
+}
+
+/*END ABOUT COMPANY*/
+
 @media all and (min-width: 769px) {
   main.main-index .info-to-clients .info-to-clients__wrap.import {
     -webkit-transform: translate(130%, 0);
@@ -3064,6 +3489,12 @@ h1 {
             transform: translate(0, 0);
     opacity: 1;
     z-index: -1;
+  }
+}
+
+@media all and (max-width: 1600px) {
+  .main-about .about-description .about-description__text {
+    width: 48%;
   }
 }
 
@@ -3225,6 +3656,219 @@ h1 {
 
   .business-lines .business-lines__row .business-lines__col .business-lines__cols .business-lines__col-small:hover .text-on-hover a {
     padding: 3% 0 0 2%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .main-about .about-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 28px;
+  }
+
+  .main-about .about-description .about-description__text {
+    width: 100%;
+  }
+
+  .main-about .about-description .about-description__text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 28px;
+  }
+
+  .main-about .about-description .about-description__video {
+    width: 100%;
+  }
+
+  .main-about .about-emea {
+    padding: 22px 0 28px 0;
+  }
+
+  .main-about .about-emea h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+
+  .main-about .about-emea .about-emea__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-about .about-emea .about-emea__items .item {
+    width: 100%;
+  }
+
+  .main-about .about-emea .about-emea__items .item p {
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 36px;
+  }
+
+  .main-about .about-emea .about-emea__items .item span {
+    font-size: 16px;
+  }
+
+  .main-about .about-cross_and_prior {
+    padding: 22px 0 25px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-about .about-cross_and_prior svg {
+    margin-bottom: 8px;
+  }
+
+  .main-about .about-cross_and_prior p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .main-about .about-cross_and_prior span {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .main-about .about-cross_and_prior .cross,
+  .main-about .about-cross_and_prior .prior {
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .main-about .about-cross_and_prior .banner {
+    width: 328px;
+    margin-top: 22px;
+  }
+
+  .main-about .about-cross_and_prior .banner img {
+    width: 100%;
+  }
+
+  .main-about .about-cross_and_prior .banner p {
+    left: 25%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main-about .about-cross_and_prior .banner a {
+    top: 55%;
+    left: 29%;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main-about .about-services {
+    padding: 5px 0 46px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-about .about-services .about-services__col {
+    width: 100%;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item img {
+    width: 80%;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item p {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item p span {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .main-about .about-direct {
+    padding: 30px 0;
+  }
+
+  .main-about .about-direct h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 36px;
+  }
+
+  .main-about .about-direct .about-direct_items .item p {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+
+  .main-about .about-direct .about-direct_items .item span {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .main-about .about-report {
+    padding: 26px 0;
+  }
+
+  .main-about .about-report h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .main-about .about-report .about-report_cols {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 24px 20px;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_files {
+    width: 100%;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_files .about-report_files__col p {
+    margin-bottom: 30px;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_files .about-report_files__col p:last-child {
+    margin-bottom: 30px;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_files .about-report_files__col p a {
+    font-size: 12px;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_present {
+    width: 50%;
+  }
+
+  .main-about .about-callback {
+    margin-top: 25px;
+  }
+
+  .main-about .about-callback p {
+    margin-left: 48px;
+    font-size: 20px;
+    width: 33%;
+    text-align: center;
+  }
+
+  .main-about .about-callback a {
+    margin-right: 48px;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 11px 54px;
   }
 }
 
@@ -4432,6 +5076,26 @@ h1 {
             flex-direction: column;
     margin-top: 38px;
   }
+
+  .main-about {
+    margin-bottom: 100px;
+  }
+
+  .main-about .about-direct {
+    padding: 30px 0 0 0;
+  }
+
+  .main-about .about-direct .about-direct_items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-about .about-direct .about-direct_items .item {
+    margin-bottom: 28px;
+    width: 100%;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -4586,6 +5250,78 @@ h1 {
   .solutions .solutions__row .solutions__col-medium a {
     font-size: 14px;
   }
+
+  .main-about .about-cross_and_prior .banner {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .main-about .about-cross_and_prior .banner img {
+    width: 100%;
+  }
+
+  .main-about .about-cross_and_prior .banner p {
+    top: 45px;
+    left: 12%;
+  }
+
+  .main-about .about-cross_and_prior .banner a {
+    top: 110px;
+    left: 18%;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item img {
+    width: auto;
+  }
+
+  .main-about .about-services .about-services__col .about-services__item p {
+    margin-top: 12px;
+    width: 98%;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_files {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_files .about-report_files__col {
+    width: 100%;
+  }
+
+  .main-about .about-report .about-report_cols .about-report_present {
+    width: 100%;
+  }
+
+  .main-about .about-callback {
+    background: url(../img/abmob.png) center/cover no-repeat;
+    height: 230px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+
+  .main-about .about-callback p {
+    margin-left: 0;
+    width: 100%;
+    padding: 38px 48px 34px 48px;
+  }
+
+  .main-about .about-callback a {
+    margin-right: 0;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -4623,3 +5359,10 @@ h1 {
 .webp .main-contacts.container .contacts-form .contacts-form_banner{ background: url(../img/contacts_banner.webp) center/cover no-repeat; }
 
 .webp .main-where_buy .where_buy__filter select{ background: url(../img/selarr.webp) no-repeat 95% 50% #FFFFFF; }
+
+.webp .main-about .about-callback{ background: url(../img/about_cb.webp) center/cover no-repeat; }
+
+@media all and (max-width: 767px){
+
+  .webp .main-about .about-callback{ background: url(../img/abmob.webp) center/cover no-repeat; }
+}
