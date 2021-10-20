@@ -147,7 +147,28 @@ testWebP(function (support) {
      });
 
 
-
+    /*PARTNER SLIDER*/
+     $(".become_partner-slider").slick({
+         arrows: true,
+         slidesToShow: 3,
+         autoplay: true,
+         autoplaySpeed: 5000,
+         lazyLoad: 'ondemand',
+         dots: false,
+         pauseOnDotsHover :true,
+         responsive: [
+             {
+                 breakpoint: 767,
+                 settings: {
+                     slidesToShow: 1,
+                     centerPadding: '50px',
+                     centerMode: true,
+                     arrows: false,
+                     autoplay: false
+                 }
+             }
+         ]
+     })
 }
 
 

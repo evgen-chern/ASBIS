@@ -3455,6 +3455,251 @@ h1 {
 
 /*END ABOUT COMPANY*/
 
+/*START BECOME PARTNER*/
+
+.main-become_partner {
+  margin-bottom: 150px;
+}
+
+.main-become_partner .become_partner-reasons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-become_partner .become_partner-reasons .reason {
+  margin-top: 30px;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-become_partner .become_partner-reasons .reason h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #133F68;
+  margin: 25px 0 10px 0;
+}
+
+.main-become_partner .become_partner-reasons .reason p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5D5D5D;
+}
+
+.main-become_partner .become_partner-form {
+  margin-top: 150px;
+}
+
+.main-become_partner .become_partner-form h4 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #353535;
+  margin-bottom: 40px;
+}
+
+.main-become_partner .become_partner-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+}
+
+.main-become_partner .become_partner-form form .simple,
+.main-become_partner .become_partner-form form select {
+  width: 440px;
+  height: 50px;
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+  margin: 0 20px 30px 0;
+  padding: 12px 15px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+}
+
+.main-become_partner .become_partner-form form .simple::-webkit-input-placeholder, .main-become_partner .become_partner-form form select::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form .simple::-moz-placeholder, .main-become_partner .become_partner-form form select::-moz-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form .simple:-ms-input-placeholder, .main-become_partner .become_partner-form form select:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form .simple::-ms-input-placeholder, .main-become_partner .become_partner-form form select::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form .simple::placeholder,
+.main-become_partner .become_partner-form form select::placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/selarr.png) no-repeat 95% 50% #fff;
+  color: #b4b4b4;
+}
+
+.main-become_partner .become_partner-form form select.full {
+  width: 900px;
+  background: url(../img/selarr.png) no-repeat 97.5% 50% #fff;
+}
+
+.main-become_partner .become_partner-form form textarea {
+  resize: none;
+  width: 900px;
+  height: 150px;
+  color: #353535;
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main-become_partner .become_partner-form form textarea::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form textarea::-moz-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form textarea:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form textarea::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form textarea::placeholder {
+  opacity: 0.5;
+}
+
+.main-become_partner .become_partner-form form .check_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.main-become_partner .become_partner-form form .check_input span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  opacity: 0.85;
+  margin: 0 6px 0 15px;
+}
+
+.main-become_partner .become_partner-form form .check_input a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #133F68;
+  opacity: 0.85;
+}
+
+.main-become_partner .become_partner-form form p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #353535;
+  opacity: 0.5;
+  margin: 15px 0 40px 0;
+}
+
+.main-become_partner .become_partner-form form .send_btn {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px 99px;
+  background: #133F68;
+  border-radius: 50px;
+}
+
+.main-become_partner .become_partner-list {
+  margin-top: 150px;
+}
+
+.main-become_partner .become_partner-list h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  color: #353535;
+  margin-bottom: 40px;
+}
+
+.main-become_partner .become_partner-list .become_partner-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.main-become_partner .become_partner-list .become_partner-slider .slider-item {
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F5F7F9;
+  border-radius: 8px;
+}
+
+.main-become_partner .become_partner-list .become_partner-slider .slick-arrow {
+  position: absolute;
+  top: -70px;
+  right: 20px;
+  background: #F5F7F9;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.main-become_partner .become_partner-list .become_partner-slider .slick-arrow.slick-prev {
+  right: 70px;
+}
+
+/*END BECOME PARTNER*/
+
 @media all and (min-width: 769px) {
   main.main-index .info-to-clients .info-to-clients__wrap.import {
     -webkit-transform: translate(130%, 0);
@@ -3869,6 +4114,10 @@ h1 {
     font-size: 12px;
     line-height: 22px;
     padding: 11px 54px;
+  }
+
+  .main-become_partner .become_partner-form form {
+    width: 100%;
   }
 }
 
@@ -5096,6 +5345,111 @@ h1 {
     margin-bottom: 28px;
     width: 100%;
   }
+
+  .main-become_partner {
+    margin-bottom: 100px;
+  }
+
+  .main-become_partner .become_partner-reasons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .main-become_partner .become_partner-reasons .reason {
+    margin-top: 28px;
+    width: 100%;
+  }
+
+  .main-become_partner .become_partner-reasons .reason:first-child {
+    margin-top: 4px;
+  }
+
+  .main-become_partner .become_partner-reasons .reason svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-become_partner .become_partner-reasons .reason h4 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 12px 0 8px 0;
+  }
+
+  .main-become_partner .become_partner-reasons .reason p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .main-become_partner .become_partner-form {
+    margin-top: 50px;
+  }
+
+  .main-become_partner .become_partner-form h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .main-become_partner .become_partner-form form .simple,
+  .main-become_partner .become_partner-form form select {
+    width: 100%;
+    margin: 0 0 12px 0;
+    font-size: 14px;
+  }
+
+  .main-become_partner .become_partner-form form select.full {
+    width: 100%;
+    background: url(../img/selarr.png) no-repeat 95% 50% #fff;
+  }
+
+  .main-become_partner .become_partner-form form textarea {
+    width: 100%;
+    height: 205px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+
+  .main-become_partner .become_partner-form form .check_input {
+    margin-bottom: 12px;
+  }
+
+  .main-become_partner .become_partner-form form .check_input span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .main-become_partner .become_partner-form form .check_input a {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .main-become_partner .become_partner-form form p {
+    margin: 12px 0 32px 0;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main-become_partner .become_partner-form form .send_btn {
+    padding: 12px 128px;
+    font-size: 14px;
+  }
+
+  .main-become_partner .become_partner-list {
+    margin-top: 50px;
+  }
+
+  .main-become_partner .become_partner-list h2 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 24px;
+  }
+
+  .main-become_partner .become_partner-list .become_partner-slider .slick-arrow {
+    padding: 8px 10px;
+    top: -50px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -5322,6 +5676,10 @@ h1 {
   .main-about .about-callback a {
     margin-right: 0;
   }
+
+  .main-become_partner .become_partner-list .become_partner-slider .slider-item {
+    margin: 0 10px;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -5361,6 +5719,15 @@ h1 {
 .webp .main-where_buy .where_buy__filter select{ background: url(../img/selarr.webp) no-repeat 95% 50% #FFFFFF; }
 
 .webp .main-about .about-callback{ background: url(../img/about_cb.webp) center/cover no-repeat; }
+
+.webp .main-become_partner .become_partner-form form select{ background: url(../img/selarr.webp) no-repeat 95% 50% #fff; }
+
+.webp .main-become_partner .become_partner-form form select.full{ background: url(../img/selarr.webp) no-repeat 97.5% 50% #fff; }
+
+@media all and (max-width: 1023px){
+
+  .webp .main-become_partner .become_partner-form form select.full{ background: url(../img/selarr.webp) no-repeat 95% 50% #fff; }
+}
 
 @media all and (max-width: 767px){
 
