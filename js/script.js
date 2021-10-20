@@ -146,6 +146,11 @@ testWebP(function (support) {
          $(this).next().not(":visible").slideDown().prev().addClass("show");
      });
 
+     /*PRODUCTS DROP*/
+     if(innerWidth < 769){
+    $(".mobile__cat").click(function (){
+        $(".mobile__cat .mob_link").css("display", "flex")
+    })}
 
     /*PARTNER SLIDER*/
      $(".become_partner-slider").slick({
