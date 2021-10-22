@@ -152,6 +152,13 @@ testWebP(function (support) {
         $(".mobile__cat .mob_link").css("display", "flex")
     })}
 
+
+     /*VENDOR POPUP*/
+     if(innerWidth < 1023){
+         $(".vendors-cards .card").click(function (){
+             $(".vendors-cards .card .desc").addClass("reposition")
+         })}
+
     /*PARTNER SLIDER*/
      $(".become_partner-slider").slick({
          arrows: true,

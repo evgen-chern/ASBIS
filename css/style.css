@@ -3865,6 +3865,197 @@ h1 {
 
 /*END PRODUCTS AND DIRECT*/
 
+/*START VENDORS*/
+
+.main-vendors {
+  margin-bottom: 130px;
+}
+
+.main-vendors .vendors-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-vendors .vendors-header h4 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #353535;
+  margin-bottom: 30px;
+}
+
+.main-vendors .vendors-header p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+.main-vendors .vendors-header .vendors-header_alphabet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.main-vendors .vendors-header .vendors-header_alphabet a {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  color: #353535;
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #E9EFF2;
+  padding: 4px 0;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.main-vendors .vendors-header .vendors-header_alphabet a:hover {
+  color: #FFFFFF;
+  background: #133F68;
+}
+
+.main-vendors .vendors-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.main-vendors .vendors-cards .card {
+  width: 23%;
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F5F7F9;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.main-vendors .vendors-cards .card:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+.main-vendors .vendors-cards .card img {
+  visibility: visible;
+  width: 100%;
+}
+
+.main-vendors .vendors-cards .card span {
+  height: 270px;
+  width: 89%;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.main-vendors .vendors-cards .card span b {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.main-vendors .vendors-cards .card:hover,
+.main-vendors .vendors-cards .card:checked {
+  background: #133F68;
+}
+
+.main-vendors .vendors-cards .card:hover span,
+.main-vendors .vendors-cards .card:checked span {
+  display: block;
+}
+
+.main-vendors .vendors-cards .card:hover img,
+.main-vendors .vendors-cards .card:checked img {
+  visibility: hidden;
+}
+
+.main-vendors .vendors-cards .vendors-need_help {
+  padding: 0 115px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 210px;
+  background: url("../img/need_help.png") center/cover no-repeat;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.main-vendors .vendors-cards .vendors-need_help.v-partner {
+  background: url("../img/v_partner.png") center/cover no-repeat;
+}
+
+.main-vendors .vendors-cards .vendors-need_help p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.main-vendors .vendors-cards .vendors-need_help p.fw-300 {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.main-vendors .vendors-cards .vendors-need_help span {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.main-vendors .vendors-cards .vendors-need_help a {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #133F68;
+  padding: 13px 58px;
+  background: #FFFFFF;
+  border-radius: 50px;
+}
+
+/*END VENDORS*/
+
 @media all and (min-width: 769px) {
   main.main-index .info-to-clients .info-to-clients__wrap.import {
     -webkit-transform: translate(130%, 0);
@@ -4016,6 +4207,11 @@ h1 {
 
   .main-asbis_service .asbis_service__wrapper-pickup .pickup-items .item {
     padding: 20px 20px 5px 20px;
+  }
+
+  .main-vendors .vendors-cards .card span {
+    font-size: 13px;
+    line-height: 20px;
   }
 }
 
@@ -5660,6 +5856,93 @@ h1 {
     font-size: 14px;
     line-height: 24px;
   }
+
+  .main-vendors {
+    margin-bottom: 86px;
+  }
+
+  .main-vendors .vendors-header h4 {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .main-vendors .vendors-header p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 28px;
+  }
+
+  .main-vendors .vendors-cards {
+    margin-top: 18px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+
+  .main-vendors .vendors-cards .card {
+    width: 156px;
+    height: 67px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  .main-vendors .vendors-cards .card img {
+    width: 89px;
+    max-height: 66px;
+  }
+
+  .main-vendors .vendors-cards .card span.reposition {
+    top: 0;
+    left: 0;
+    background: #133F68;
+    z-index: 1;
+    width: 328px;
+    height: 232px;
+    border-radius: 6px;
+    padding: 15px;
+  }
+
+  .main-vendors .vendors-cards .card:nth-child(2n) span.reposition {
+    left: -110%;
+  }
+
+  .main-vendors .vendors-cards .vendors-need_help {
+    margin-bottom: 16px;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 230px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .main-vendors .vendors-cards .vendors-need_help p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .main-vendors .vendors-cards .vendors-need_help p.fw-300 {
+    margin-bottom: 34px;
+  }
+
+  .main-vendors .vendors-cards .vendors-need_help span {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    margin-bottom: 22px;
+  }
+
+  .main-vendors .vendors-cards .vendors-need_help a {
+    font-size: 12px;
+    line-height: 22px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -5916,6 +6199,18 @@ h1 {
   }
 }
 
+@media all and (max-width: 500px) {
+  .main-vendors .vendors-cards .card {
+    width: 155px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+  }
+
+  .main-vendors .vendors-cards .card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
 @media all and (max-width: 440px) {
   .footer .footer-info .footer-links .info-country {
     margin: 29px 0 0 0;
@@ -5933,6 +6228,10 @@ h1 {
 .webp .main-become_partner .become_partner-form form select{ background: url(../img/selarr.webp) no-repeat 95% 50% #fff; }
 
 .webp .main-become_partner .become_partner-form form select.full{ background: url(../img/selarr.webp) no-repeat 97.5% 50% #fff; }
+
+.webp .main-vendors .vendors-cards .vendors-need_help{ background: url(../img/need_help.webp) center/cover no-repeat; }
+
+.webp .main-vendors .vendors-cards .vendors-need_help.v-partner{ background: url(../img/v_partner.webp) center/cover no-repeat; }
 
 @media all and (max-width: 1023px){
 
