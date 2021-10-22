@@ -3871,7 +3871,19 @@ h1 {
   margin-bottom: 130px;
 }
 
-.main-vendors .vendors-header {
+.main-vendors_select {
+  margin-bottom: 130px;
+}
+
+.main-vendors_select .vendors-need_help.v-partner {
+  margin-top: 50px;
+}
+
+.main-vendors_select .vendors-cards {
+  margin-top: 50px;
+}
+
+.vendors-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3881,7 +3893,7 @@ h1 {
           flex-direction: column;
 }
 
-.main-vendors .vendors-header h4 {
+.vendors-header h4 {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
@@ -3889,7 +3901,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.main-vendors .vendors-header p {
+.vendors-header p {
   font-size: 16px;
   line-height: 26px;
   color: #353535;
@@ -3897,7 +3909,7 @@ h1 {
   width: 80%;
 }
 
-.main-vendors .vendors-header .vendors-header_alphabet {
+.vendors-header .vendors-header_alphabet {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3909,7 +3921,7 @@ h1 {
   width: 100%;
 }
 
-.main-vendors .vendors-header .vendors-header_alphabet a {
+.vendors-header .vendors-header_alphabet a {
   font-weight: 300;
   font-size: 24px;
   line-height: 170%;
@@ -3924,12 +3936,19 @@ h1 {
   cursor: pointer;
 }
 
-.main-vendors .vendors-header .vendors-header_alphabet a:hover {
+.vendors-header .vendors-header_alphabet a:hover {
   color: #FFFFFF;
   background: #133F68;
 }
 
-.main-vendors .vendors-cards {
+.vendors-header .vendors-header_alphabet a#all {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 12px 40px;
+  width: 110px;
+}
+
+.vendors-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3939,7 +3958,7 @@ h1 {
   margin-top: 30px;
 }
 
-.main-vendors .vendors-cards .card {
+.vendors-cards .card {
   width: 23%;
   height: 270px;
   display: -webkit-box;
@@ -3959,16 +3978,16 @@ h1 {
   cursor: pointer;
 }
 
-.main-vendors .vendors-cards .card:nth-child(4n+4) {
+.vendors-cards .card:nth-child(4n+4) {
   margin-right: 0;
 }
 
-.main-vendors .vendors-cards .card img {
+.vendors-cards .card img {
   visibility: visible;
   width: 100%;
 }
 
-.main-vendors .vendors-cards .card span {
+.vendors-cards .card span {
   height: 270px;
   width: 89%;
   display: none;
@@ -3981,28 +4000,28 @@ h1 {
   color: #FFFFFF;
 }
 
-.main-vendors .vendors-cards .card span b {
+.vendors-cards .card span b {
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
 }
 
-.main-vendors .vendors-cards .card:hover,
-.main-vendors .vendors-cards .card:checked {
+.vendors-cards .card:hover,
+.vendors-cards .card:checked {
   background: #133F68;
 }
 
-.main-vendors .vendors-cards .card:hover span,
-.main-vendors .vendors-cards .card:checked span {
+.vendors-cards .card:hover span,
+.vendors-cards .card:checked span {
   display: block;
 }
 
-.main-vendors .vendors-cards .card:hover img,
-.main-vendors .vendors-cards .card:checked img {
+.vendors-cards .card:hover img,
+.vendors-cards .card:checked img {
   visibility: hidden;
 }
 
-.main-vendors .vendors-cards .vendors-need_help {
+.vendors-cards .vendors-need_help {
   padding: 0 115px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4020,11 +4039,11 @@ h1 {
   margin-bottom: 20px;
 }
 
-.main-vendors .vendors-cards .vendors-need_help.v-partner {
+.vendors-cards .vendors-need_help.v-partner {
   background: url("../img/v_partner.png") center/cover no-repeat;
 }
 
-.main-vendors .vendors-cards .vendors-need_help p {
+.vendors-cards .vendors-need_help p {
   font-weight: 500;
   font-size: 24px;
   line-height: 170%;
@@ -4032,19 +4051,19 @@ h1 {
   margin-bottom: 25px;
 }
 
-.main-vendors .vendors-cards .vendors-need_help p.fw-300 {
+.vendors-cards .vendors-need_help p.fw-300 {
   font-weight: 300;
   margin-bottom: 0;
 }
 
-.main-vendors .vendors-cards .vendors-need_help span {
+.vendors-cards .vendors-need_help span {
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   color: #FFFFFF;
 }
 
-.main-vendors .vendors-cards .vendors-need_help a {
+.vendors-cards .vendors-need_help a {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
@@ -4209,7 +4228,7 @@ h1 {
     padding: 20px 20px 5px 20px;
   }
 
-  .main-vendors .vendors-cards .card span {
+  .vendors-cards .card span {
     font-size: 13px;
     line-height: 20px;
   }
@@ -5861,37 +5880,49 @@ h1 {
     margin-bottom: 86px;
   }
 
-  .main-vendors .vendors-header h4 {
+  .main-vendors_select {
+    margin-bottom: 86px;
+  }
+
+  .main-vendors_select .vendors-need_help.v-partner {
+    margin-top: 0;
+  }
+
+  .main-vendors_select .vendors-cards {
+    margin-top: 18px;
+  }
+
+  .vendors-header h4 {
     font-size: 18px;
     margin-bottom: 24px;
   }
 
-  .main-vendors .vendors-header p {
+  .vendors-header p {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 28px;
   }
 
-  .main-vendors .vendors-cards {
+  .vendors-cards {
     margin-top: 18px;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
   }
 
-  .main-vendors .vendors-cards .card {
+  .vendors-cards .card {
     width: 156px;
     height: 67px;
     margin-bottom: 16px;
     margin-right: 16px;
   }
 
-  .main-vendors .vendors-cards .card img {
+  .vendors-cards .card img {
     width: 89px;
     max-height: 66px;
   }
 
-  .main-vendors .vendors-cards .card span.reposition {
+  .vendors-cards .card span.reposition {
     top: 0;
     left: 0;
     background: #133F68;
@@ -5902,11 +5933,11 @@ h1 {
     padding: 15px;
   }
 
-  .main-vendors .vendors-cards .card:nth-child(2n) span.reposition {
+  .vendors-cards .card:nth-child(2n) span.reposition {
     left: -110%;
   }
 
-  .main-vendors .vendors-cards .vendors-need_help {
+  .vendors-cards .vendors-need_help {
     margin-bottom: 16px;
     padding: 0;
     -webkit-box-orient: vertical;
@@ -5920,18 +5951,18 @@ h1 {
             justify-content: center;
   }
 
-  .main-vendors .vendors-cards .vendors-need_help p {
+  .vendors-cards .vendors-need_help p {
     font-size: 18px;
     line-height: 26px;
     text-align: center;
     margin-bottom: 20px;
   }
 
-  .main-vendors .vendors-cards .vendors-need_help p.fw-300 {
+  .vendors-cards .vendors-need_help p.fw-300 {
     margin-bottom: 34px;
   }
 
-  .main-vendors .vendors-cards .vendors-need_help span {
+  .vendors-cards .vendors-need_help span {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
@@ -5939,7 +5970,7 @@ h1 {
     margin-bottom: 22px;
   }
 
-  .main-vendors .vendors-cards .vendors-need_help a {
+  .vendors-cards .vendors-need_help a {
     font-size: 12px;
     line-height: 22px;
   }
@@ -6200,13 +6231,17 @@ h1 {
 }
 
 @media all and (max-width: 500px) {
-  .main-vendors .vendors-cards .card {
+  .vendors-header .vendors-header_alphabet a#all {
+    width: 96.3%;
+  }
+
+  .vendors-cards .card {
     width: 155px;
     margin-right: 14px;
     margin-bottom: 14px;
   }
 
-  .main-vendors .vendors-cards .card:nth-child(2n) {
+  .vendors-cards .card:nth-child(2n) {
     margin-right: 0;
   }
 }
@@ -6229,9 +6264,9 @@ h1 {
 
 .webp .main-become_partner .become_partner-form form select.full{ background: url(../img/selarr.webp) no-repeat 97.5% 50% #fff; }
 
-.webp .main-vendors .vendors-cards .vendors-need_help{ background: url(../img/need_help.webp) center/cover no-repeat; }
+.webp .vendors-cards .vendors-need_help{ background: url(../img/need_help.webp) center/cover no-repeat; }
 
-.webp .main-vendors .vendors-cards .vendors-need_help.v-partner{ background: url(../img/v_partner.webp) center/cover no-repeat; }
+.webp .vendors-cards .vendors-need_help.v-partner{ background: url(../img/v_partner.webp) center/cover no-repeat; }
 
 @media all and (max-width: 1023px){
 
