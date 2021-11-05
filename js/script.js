@@ -181,6 +181,12 @@ testWebP(function (support) {
              }
          ]
      })
+
+
+         $('input.deletable').wrap('<span class="deleteicon" />').after($('<span/>').click(function() {
+             $(this).prev('input').val('').trigger('change').focus();
+         }));
+
 }
 
 
