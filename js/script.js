@@ -182,6 +182,27 @@ testWebP(function (support) {
          ]
      })
 
+     /*SIMILAR SLIDER*/
+     $(".news_detail-similar__slider").slick({
+         arrows: true,
+         slidesToShow: 3,
+         autoplay: true,
+         autoplaySpeed: 5000,
+         lazyLoad: 'ondemand',
+         dots: false,
+         pauseOnDotsHover :true,
+         responsive: [
+             {
+                 breakpoint: 767,
+                 settings: {
+                     slidesToShow: 1,
+                     arrows: false,
+                     autoplay: false
+                 }
+             }
+         ]
+     })
+
 
          $('input.deletable').wrap('<span class="deleteicon" />').after($('<span/>').click(function() {
              $(this).prev('input').val('').trigger('change').focus();
