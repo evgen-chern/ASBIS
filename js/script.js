@@ -208,6 +208,12 @@ testWebP(function (support) {
              $(this).prev('input').val('').trigger('change').focus();
          }));
 
+
+     /*SEND-RESUME*/
+     $('#sendR').click(function() {
+         $(".vacancy_form").toggleClass("active")
+     });
+
 }
 
 
@@ -223,4 +229,5 @@ if(innerWidth >= 1023){
             info.removeClass('vh');
         }
     })}
+
 

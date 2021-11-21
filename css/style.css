@@ -1870,15 +1870,11 @@ h1 {
 
 .main-contacts.container .contacts-service .contacts-service_wrapper .help-wrap a {
   margin-left: 13px;
-  margin-top: 8px;
+  margin-top: 4px;
   font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #2B85ED;
-}
-
-.main-contacts.container .contacts-service .contacts-service_wrapper .help-wrap a img {
-  margin-right: 5px;
 }
 
 .main-contacts.container .contacts-ukraine {
@@ -1974,15 +1970,11 @@ h1 {
 }
 
 .main-contacts.container .contacts-ukraine .contacts-ukraine_wrapper .contacts-ukraine_office .office-wrap a {
-  margin: 8px 0 0 13px;
+  margin: 4px 0 0 13px;
   font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #2B85ED;
-}
-
-.main-contacts.container .contacts-ukraine .contacts-ukraine_wrapper .contacts-ukraine_office .office-wrap a img {
-  margin-right: 5px;
 }
 
 .main-contacts.container .contacts-ukraine .contacts-ukraine_wrapper .contacts-ukraine_office p.office_call {
@@ -3034,6 +3026,172 @@ h1 {
   margin-bottom: 0;
 }
 
+.main-vacancy_detail .vacancy_form {
+  margin-top: 100px;
+  display: none;
+}
+
+.main-vacancy_detail .vacancy_form.active {
+  display: block;
+}
+
+.main-vacancy_detail .vacancy_form h4 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  color: #353535;
+  margin-bottom: 70px;
+}
+
+.main-vacancy_detail .vacancy_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 63%;
+}
+
+.main-vacancy_detail .vacancy_form form label {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  margin-bottom: 6px;
+  opacity: 0.5;
+}
+
+.main-vacancy_detail .vacancy_form form label.req:after {
+  content: "*";
+  color: red;
+  padding-left: 2px;
+}
+
+.main-vacancy_detail .vacancy_form form .fileD_wrap {
+  margin: 0 0 20px 0;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  padding: 12px 15px;
+  color: #535353;
+  background: #E1EBF5;
+  opacity: 0.8;
+}
+
+.main-vacancy_detail .vacancy_form form .fileD_wrap input[type=file] {
+  opacity: 0;
+  position: absolute;
+}
+
+.main-vacancy_detail .vacancy_form form .fileD_wrap #btnDownload {
+  font-size: 16px;
+  line-height: 26px;
+  color: #535353;
+  padding: 3px 20px;
+  background: #FFFFFF;
+  border: 1px solid #B4B4B4;
+  border-radius: 6px;
+}
+
+.main-vacancy_detail .vacancy_form form .fileD_wrap #onlyText {
+  font-size: 16px;
+  line-height: 26px;
+  color: #535353;
+  margin-left: 10px;
+}
+
+.main-vacancy_detail .vacancy_form form .simple,
+.main-vacancy_detail .vacancy_form form select {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #B4B4B4;
+  border-radius: 8px;
+  margin: 0 0 20px 0;
+  padding: 12px 15px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+}
+
+.main-vacancy_detail .vacancy_form form .simple::-webkit-input-placeholder, .main-vacancy_detail .vacancy_form form select::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-vacancy_detail .vacancy_form form .simple::-moz-placeholder, .main-vacancy_detail .vacancy_form form select::-moz-placeholder {
+  opacity: 0.5;
+}
+
+.main-vacancy_detail .vacancy_form form .simple:-ms-input-placeholder, .main-vacancy_detail .vacancy_form form select:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-vacancy_detail .vacancy_form form .simple::-ms-input-placeholder, .main-vacancy_detail .vacancy_form form select::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.main-vacancy_detail .vacancy_form form .simple::placeholder,
+.main-vacancy_detail .vacancy_form form select::placeholder {
+  opacity: 0.5;
+}
+
+.main-vacancy_detail .vacancy_form form select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/selarr.png) no-repeat 96% 50% #fff;
+  color: #b4b4b4;
+}
+
+.main-vacancy_detail .vacancy_form form .check_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main-vacancy_detail .vacancy_form form .check_input span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #353535;
+  opacity: 0.85;
+  margin: 0 6px 0 15px;
+}
+
+.main-vacancy_detail .vacancy_form form .check_input a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #133F68;
+  opacity: 0.85;
+  border-bottom: 1px #133F68 solid;
+}
+
+.main-vacancy_detail .vacancy_form form p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #353535;
+  opacity: 0.5;
+  margin: 0 0 22px 0;
+}
+
+.main-vacancy_detail .vacancy_form form .send_btn {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px 99px 15px 99px;
+  background: #133F68;
+  border-radius: 50px;
+  max-width: 285px;
+}
+
 /*END VACANCY DETAIL*/
 
 /*START ABOUT COMPANY*/
@@ -3061,15 +3219,12 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 40%;
 }
 
 .main-about .about-description .about-description__text p {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 170%;
   color: #353535;
 }
@@ -3825,7 +3980,8 @@ h1 {
   font-size: 16px;
   line-height: 30px;
   color: #133F68;
-  margin-bottom: 48px;
+  margin-bottom: 38px;
+  min-height: 60px;
 }
 
 .catalog .content .content-cols .content-cols_col a:last-child {
@@ -5240,6 +5396,10 @@ h1 {
     font-size: 14px;
   }
 
+  .main-contacts.container .contacts-ukraine .contacts-ukraine_wrapper .contacts-ukraine_office .office-wrap a {
+    margin: 3px 0 0 8px;
+  }
+
   .main-contacts.container .contacts-ukraine .contacts-ukraine_wrapper .contacts-ukraine_office p.office_call {
     margin: 58px 0 0 20px;
     font-size: 14px;
@@ -5356,6 +5516,12 @@ h1 {
   }
 }
 
+@media all and (max-width: 1300px) {
+  .catalog .content .content-cols .content-cols_col a {
+    min-height: 90px;
+  }
+}
+
 @media all and (max-width: 1279px) {
   .main-news .news-wrapper .news-items {
     grid-template-columns: repeat(2, 47%);
@@ -5424,6 +5590,10 @@ h1 {
 }
 
 @media all and (max-width: 1200px) {
+  .main-vacancy_detail .vacancy_form form {
+    width: 100%;
+  }
+
   .main-about .about-description {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6845,6 +7015,65 @@ h1 {
     margin-top: 38px;
   }
 
+  .main-vacancy_detail .vacancy_form {
+    margin-top: 50px;
+  }
+
+  .main-vacancy_detail .vacancy_form h4 {
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+
+  .main-vacancy_detail .vacancy_form form label {
+    font-size: 14px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .fileD_wrap {
+    margin: 0 0 12px 0;
+  }
+
+  .main-vacancy_detail .vacancy_form form .fileD_wrap #btnDownload {
+    font-size: 14px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .fileD_wrap #onlyText {
+    font-size: 14px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .simple,
+  .main-vacancy_detail .vacancy_form form select {
+    width: 100%;
+    margin: 0 0 12px 0;
+    font-size: 14px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .check_input {
+    margin-bottom: 14px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .check_input span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .check_input a {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .main-vacancy_detail .vacancy_form form p {
+    margin: 0 0 30px 0;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main-vacancy_detail .vacancy_form form .send_btn {
+    padding: 12px 128px;
+    font-size: 14px;
+    max-width: 400px;
+  }
+
   .main-about {
     margin-bottom: 100px;
   }
@@ -7001,6 +7230,12 @@ h1 {
 
   .catalog .content {
     display: none;
+  }
+
+  .catalog .content .content-cols .content-cols_col a {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
   }
 
   .main-products__description,
@@ -7991,6 +8226,8 @@ h1 {
 .webp .main-contacts.container .contacts-form .contacts-form_banner{ background: url(../img/contacts_banner.webp) center/cover no-repeat; }
 
 .webp .main-where_buy .where_buy__filter select{ background: url(../img/selarr.webp) no-repeat 95% 50% #FFFFFF; }
+
+.webp .main-vacancy_detail .vacancy_form form select{ background: url(../img/selarr.webp) no-repeat 96% 50% #fff; }
 
 .webp .main-about .about-callback{ background: url(../img/about_cb.webp) center/cover no-repeat; }
 
