@@ -166,6 +166,20 @@ body {
   overflow-x: hidden;
 }
 
+body.pop::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body.pop main.main-index .main-index_slider_box .main-index_slider .slick-arrow {
+  opacity: 0.1;
+}
+
 .container {
   width: 100%;
   max-width: 1680px;
@@ -1534,6 +1548,104 @@ main.main-index .info-to-clients .info-to-clients__wrap .info-to-clients__text:a
 
 .footer {
   background: #133F68;
+  position: relative;
+}
+
+.footer .popForm {
+  display: none;
+  background: #133F68;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 480px;
+  position: fixed;
+  top: 22%;
+  left: 39%;
+  z-index: 80;
+  margin: 0 auto;
+}
+
+.footer .popForm h4 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 170%;
+  color: #FFFFFF;
+}
+
+.footer .popForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.footer .popForm form input[type=submit] {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #133F68;
+  padding: 17px 142px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  margin: 40px auto 0 auto;
+  max-width: 366px;
+}
+
+.footer .popForm form .simple {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #6F8C9C;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E9EFF2;
+  opacity: 0.5;
+  margin-bottom: 12px;
+  background-color: transparent;
+  padding: 12px 15px;
+}
+
+.footer .popForm form .check_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.footer .popForm form .check_input span {
+  font-size: 12px;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.85;
+  margin: 0 8px 0 10px;
+}
+
+.footer .popForm form .check_input a {
+  font-size: 12px;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.85;
+  border-bottom: 1px #fff solid;
+}
+
+.footer .popForm form .closePop {
+  position: absolute;
+  top: -58px;
+  right: 0;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
 }
 
 .footer .footer-info {
@@ -5312,6 +5424,13 @@ h1 {
   }
 }
 
+@media all and (max-width: 1601px) {
+  .footer .popForm {
+    left: 34%;
+    top: 25%;
+  }
+}
+
 @media all and (max-width: 1600px) {
   .main-about .about-description .about-description__text {
     width: 48%;
@@ -5355,6 +5474,10 @@ h1 {
 }
 
 @media all and (max-width: 1365px) {
+  .footer .popForm {
+    left: 31%;
+  }
+
   .main-contacts.container .contacts-service .contacts-service_wrapper p {
     font-size: 14px;
     margin: 20px 0 10px 20px;
@@ -5807,6 +5930,12 @@ h1 {
 
   .main-become_partner .become_partner-form form {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .footer .popForm {
+    left: 27%;
   }
 }
 
@@ -6377,6 +6506,16 @@ h1 {
   .news .news-row .news-col .news-item .news-text {
     margin-bottom: 24px;
     font-size: 12px;
+    line-height: 20px;
+  }
+
+  .footer .popForm form .check_input span {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .footer .popForm form .check_input a {
+    font-size: 10px;
     line-height: 20px;
   }
 
@@ -7846,6 +7985,12 @@ h1 {
   }
 }
 
+@media all and (max-width: 850px) {
+  .footer .popForm {
+    left: 19%;
+  }
+}
+
 @media all and (max-width: 767px) {
   .header .header-info .info .info-search {
     display: none;
@@ -8172,6 +8317,29 @@ h1 {
 
   .main-news_detail .news_detail-similar .news_detail-similar__slider .slider-item {
     margin: 0;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .footer .popForm {
+    left: 0;
+    top: 22%;
+  }
+
+  .footer .popForm h4 {
+    font-size: 18px;
+  }
+
+  .footer .popForm form input[type=submit] {
+    padding: 17px 120px;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 18px auto 0 auto;
+  }
+
+  .footer .popForm form .simple {
+    font-size: 14px;
+    line-height: 26px;
   }
 }
 

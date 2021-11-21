@@ -214,7 +214,26 @@ testWebP(function (support) {
          $(".vacancy_form").toggleClass("active")
      });
 
-}
+     /*PopUp Form*/
+     $('.formPopUp').click(function() {
+         $(".popForm").fadeIn();
+         $("body").addClass("pop");
+     });
+
+     $(document).mouseup(function (e){ // событие клика по веб-документу
+         var div = $(".popForm"); // тут указываем ID элемента
+         if (div.is(":visible") && !div.is(e.target) // если клик был не по нашему блоку
+             && div.has(e.target).length === 0) { // и не по его дочерним элементам
+             $(".popForm").fadeOut(); // скрываем его
+             $("body").removeClass("pop");
+         }
+     });
+
+     $('.closePop').click(function() {
+         $(".popForm").fadeOut();
+         $("body").removeClass("pop");
+     });
+ }
 
 
 let header = $('.header');
