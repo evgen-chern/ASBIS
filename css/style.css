@@ -4021,6 +4021,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 25px;
+  cursor: pointer;
 }
 
 .catalog .categories .links:last-child {
@@ -4028,8 +4029,7 @@ h1 {
 }
 
 .catalog .categories .links:hover {
-  background: #7B9FBE;
-  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 .catalog .categories .links img {
@@ -4040,13 +4040,12 @@ h1 {
 
 .catalog .categories .mobile__cat .mob_link {
   display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .catalog .categories .mobile__cat .mob_link a {
+  display: block;
   font-weight: 300;
   font-size: 14px;
   line-height: 26px;
@@ -5421,6 +5420,11 @@ h1 {
             transform: translate(0, 0);
     opacity: 1;
     z-index: -1;
+  }
+
+  .catalog .categories .links.active {
+    background: #7B9FBE;
+    color: #FFFFFF;
   }
 }
 
@@ -7988,6 +7992,14 @@ h1 {
 @media all and (max-width: 850px) {
   .footer .popForm {
     left: 19%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  .catalog .categories .links:hover {
+    background: #7B9FBE;
+    color: #FFFFFF;
+    text-decoration: none;
   }
 }
 

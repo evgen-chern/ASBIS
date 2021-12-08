@@ -148,9 +148,17 @@ testWebP(function (support) {
 
      /*PRODUCTS DROP*/
      if(innerWidth < 769){
-    $(".mobile__cat").click(function (){
-        $(".mobile__cat .mob_link").css("display", "flex")
-    })}
+         $(".mobile__cat .mob_link").prev().click(function() {
+             $(this).parents(".categories").find(".mobile__cat .mob_link").not(this).slideUp().prev().removeClass("show");
+             $(this).next().not(":visible").slideDown().prev().addClass("show");
+         });
+     }
+     if(innerWidth > 769){
+         $(".mobile__cat .mob_link").prev().click(function() {
+             $(this).parents(".categories").find(".mobile__cat .links").removeClass("active");
+             $(this).next().prev().addClass("active");
+         });
+     }
 
 
      /*VENDOR POPUP*/
